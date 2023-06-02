@@ -1,0 +1,242 @@
+body
+{
+  margin: none;
+}
+.se_1_1
+{
+  background: linear-gradient(90deg, #9565ed84,#bf852e58);
+  padding-bottom: 1px;
+  border: 2px solid  #a6a6a674;
+}
+.se_c1
+{
+  display: flex;
+}
+.se_connecter
+{
+  border-right: 1px solid  #a6a6a674;
+}
+.se_c1_2 a:hover
+{
+  border-bottom: 2px solid rgb(176, 31, 31);
+  color:  #141313c4;
+}
+.se_c1_2 a
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.nav_1_1
+{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5px;
+}
+.sinscrire
+{
+  display: flex;
+  border-left: 1px solid  #a6a6a674;
+}
+.sin1 a
+{
+  display: flex;
+}
+.sin1 p:hover
+{
+  border-bottom: 2px solid rgb(176, 31, 31);
+  color:  #a6a6a674;
+}
+
+.uimg .u
+{
+  width: 22px;
+  height: 25px;
+}
+.se_c1_1
+{
+  padding: 0px 15px;
+}
+.se_c1_1 img
+{
+  width: 20px;
+  height: 20px;
+}
+.se_c1 img
+{
+  width: 22px;
+  height: 25px;
+}
+.logo_marvel
+{
+  border-left: 1px solid  #a6a6a674;
+  border-right: 1px solid  #a6a6a674;
+}
+.logo_marvel img
+{
+  width: 130px;
+  height: 60px;
+}
+.loupe1
+{
+  padding: 0px 15px;
+}
+.loupe1 a img
+{
+  width: 19px;
+  height: 17px;
+}
+.sin1 a img
+{
+  width: 10px;
+  height: 10px;
+}
+.sin1 p
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 0px;
+}
+.hea_part2
+{
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+  margin: 0px;
+  border-top: 1px solid #a6a6a674;
+  padding-top: 2px;
+}
+
+.hea_part2 li a:hover
+{
+  border-bottom: 2px solid rgb(176, 31, 31);
+  color:  #141313c4;;
+}
+/*premier partie du site */
+
+.corp_site
+{
+  margin-top: 50px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block_1
+{
+  display: flex;
+  flex-direction: column;
+}
+.block_1_1 p
+{
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: sans-serif;
+  color: #8F5849;
+  margin-bottom: 20px;
+  
+}
+.block_1_2
+{
+  display: block;
+}
+.block_1_2 p
+{
+  font-family: sans-serif;
+  color: #45322c;
+  margin-top: 0px;
+}
+.block_1_2 input
+{
+  width: 500px;
+  height: 40px;
+}
+
+
+.bt
+{
+  margin-left: 120px;
+  margin-right: 120px;
+  width: 260px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #e1ae9e;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  pointer-events: painted;
+}
+
+button:hover 
+{
+  background: linear-gradient(90deg, #9565ed84,#bf852e58);
+}
+
+.block_2 img
+{
+  width:500px ;
+  height: 560px;
+  margin-right: 0px;
+}
+
+
+/* part3 du site*/
+
+form p label
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.titre1 h2
+{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* poied du site */
+.fin_du_site
+{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: #2d2b2be5;
+  padding: 0px 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+.fin_du_site p
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 12px;
+  font-size: 12px;
+}
+.fin_du_site p:hover
+{
+  color: white;
+}
+/* responsive pour mobile*/
+
+@media only screen and (min-width: 480px) 
+{
+  .hea_part2
+{
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40px;
+  margin: 0px;
+  border-top: 1px solid #a6a6a674;
+  padding-top: 2px;
+}
+}
